@@ -7,6 +7,7 @@
     --text-two:2.4rem;
     --text-three:2rem;
     --text-four:1.6rem;
+    --text-five:1.4rem;
 }
 *{
     box-sizing: border-box;
@@ -27,12 +28,15 @@ html{
 }
 body{
     background-color: var(--eerie-black);
+    position: relative;
 }
+
+/* header */
 
 header{
     width: 100%;
     height: 80px;
-    padding: 15px 40px;
+    padding: 20px 40px;
 }
 
 header nav{
@@ -59,4 +63,203 @@ header nav{
     width: 100%;
 }
 
+/* main */
+main{
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
 
+}
+/* main home */
+.main-home{
+    padding: 40px;
+}
+.presentation-container{
+    width: 100%;
+    height: auto;
+}
+.presentation-container__subtitle{
+    text-align: center;
+    font-weight: 300;
+    color: var(--white);
+    margin: 30px;
+}
+
+.CV-options{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin:45px 0px;
+}
+.CV-options a{
+    display: grid;
+    justify-items: center;
+    place-content: center;
+    gap: 10px;
+    width: 261px;
+    height: 189px;
+    background-color: var(--gunmetal);
+    border-radius: 15px;
+}
+.CV-options img{
+    width: 97px;
+    height: 97px;
+}
+
+.CV-options h2{
+    text-align: center;
+    font-size: var(--text-three);
+    color: var(--white);
+}
+
+/* main proyects */
+
+.proyects-container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.proyects-container img{
+    width: 385px;
+    height: 203px;
+    border-radius: 15px;
+}
+
+/* main skill container */
+.main-skill-container{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main-skill-container div{
+    width: 100px;
+    height: auto;
+    display: grid;
+    justify-items: center;
+}
+.main-skill-container img{
+    width: 70px;
+    height: 70px;
+}
+.main-skill-container span{
+    color: var(--white);
+    text-align: center;
+    font-size: var(--text-four);
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+/* experience--contend */
+.experience-main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.experience--contend{
+    width: 75%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    background-color: var(--gunmetal);
+    text-align: center;
+    border-radius: 15px;
+    padding: 12px;
+}
+.experience--contend h2{
+    color: var(--spring-green);
+    text-align: center;
+    font-size: var(--text-three);
+}
+.experience--contend h3{
+    color: var(--white);
+    font-weight: bold;
+    font-size: var(--text-four);
+    line-height: 1.8rem;
+    margin-top: 4px;
+}
+.experience--contend span{
+    color: var(--white);
+    font-weight: 300;
+    font-size: var(--text-five);
+    line-height: 1.6rem;
+}
+.experience--img{
+    width: 400px;
+}
+.experience--img img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* About me main */
+section .aboutme-contend{
+    grid-template-columns: 1fr 2fr;
+}
+div .aboutme-img{
+    width: 250px;
+}
+.aboutme-subtitle{
+    font-size: var(--text-two);
+    color: var(--white);
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+.redes-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes-container img{
+    width: 40px;
+    height: 40px;
+}
+.footer-link{
+    display: none;
+    gap: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.footer-link a{
+    color: var(--white);
+    font-weight: bold;
+    font-size: var(--text-four);
+}
+/* footer-main */
+
+.footer-main{
+    display: none;
+}
+
+.footer-skills{
+    margin-top: 80px;
+}

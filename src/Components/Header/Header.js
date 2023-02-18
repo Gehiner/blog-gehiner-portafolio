@@ -4,12 +4,12 @@ const Header=()=>{
     return(
         <header>
             <nav>
-                <div className="logo-container">
+                <a href="/" className="logo-container">
                     <img src="https://i.ibb.co/TYkY1Mw/Copia-de-Logotipo-de-empresa-de-programaci-n-de-sistemas-y-tecnolog-a-copia.webp" alt="Logo de la p&aacute;gina" className="logo"/>
-                </div>
+                </a>
                 <div className="options-nav">
-                    <a href="">HOME</a>
-                    <a href="">SOBRE M&Iacute;</a>
+                    <a href="/">HOME</a>
+                    <a href="/aboutme">SOBRE M&Iacute;</a>
                 </div>
             </nav>
         </header>
