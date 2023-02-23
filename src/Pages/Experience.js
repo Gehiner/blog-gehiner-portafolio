@@ -9,6 +9,7 @@ const Experience=()=>{
         <div>
             <Header/>
             <main className="experience-main">
+                <h1>Experiencia</h1>
                 <section  className="experience-main-container">
                 <div className="experience--contend">
                         <div className="experience--img">
